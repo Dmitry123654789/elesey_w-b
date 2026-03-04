@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Главная страница" %}{% endblock %}
+
+{% block content %}
+<div class="text-center mb-5">
+    <h1 class="display-4">{% trans "Ключевые методы продвижения" %}</h1>
+    <p class="lead">{% trans "Нажмите на любую карточку, чтобы изучить инструмент" %}</p>
+</div>
+
+<div class="row g-4">
+    {% for page_name, display_name in pages.items %}
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0 bg-light position-relative">
+            <div class="card-body text-center d-flex align-items-center justify-content-center py-4">
+                <h3 class="h5 mb-0">
+                    <a href="{% url 'homepage:home' name_page=page_name %}" 
+                       class="text-dark text-decoration-none stretched-link">
+                        {{ display_name }}
+                    </a>
+                </h3>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

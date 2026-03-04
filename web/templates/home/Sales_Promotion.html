@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Стимулирование сбыта" %}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'homepage:index' %}">{% trans "Главная" %}</a></li>
+                <li class="breadcrumb-item active">{% trans "Стимулирование сбыта" %}</li>
+            </ol>
+        </nav>
+
+        <h1 class="display-5 mb-4 border-bottom pb-3">{% trans "Стимулирование сбыта" %}</h1>
+        
+        <p class="lead text-dark fw-normal mb-5">
+            {% trans "Акции, скидки, мерч (товары с символикой). Методы мгновенного воздействия на покупателя для увеличения объема продаж в краткосрочной перспективе." %}
+        </p>
+
+        <div class="card border-0 shadow-sm bg-light mb-5">
+            <div class="card-body p-4 text-dark">
+                <p class="mb-0">
+                    {% trans "Стимулирование сбыта — это мощный рычаг управления спросом. Однако его применение требует баланса: важно поднять продажи, не обесценив при этом имидж бренда и не потеряв маржинальность." %}
+                </p>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-stretch">
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-success text-center">{% trans "Плюсы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "1. Быстрый рост продаж" %}</strong>
+                        <span class="text-muted small">{% trans "Скидки позволяют мгновенно увеличить оборот за счет покупателей, ждавших выгодных условий." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "2. Привлечение новых клиентов" %}</strong>
+                        <span class="text-muted small">{% trans "Бонусы и промокоды — отличный повод для новой аудитории попробовать ваш продукт впервые." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "3. Разгрузка складов" %}</strong>
+                        <span class="text-muted small">{% trans "Распродажи помогают быстро избавиться от остатков, освобождая место и снижая расходы на хранение." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "4. Укрепление лояльности" %}</strong>
+                        <span class="text-muted small">{% trans "Бонусные системы для постоянных клиентов усиливают их приверженность вашему бренду." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "5. Гибкость инструментов" %}</strong>
+                        <span class="text-muted small">{% trans "Кэшбэк, купоны, розыгрыши — вы можете подобрать механику под любую задачу и целевую группу." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "6. Мерч как реклама" %}</strong>
+                        <span class="text-muted small">{% trans "Аксессуары с логотипом не только приносят доход, но и работают как бесплатная реклама бренда." %}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-danger text-center">{% trans "Минусы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "1. Обесценивание продукта" %}</strong>
+                        <span class="text-muted small">{% trans "Частые скидки могут создать имидж дешевого товара, снижая доверие к качеству бренда." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "2. Потеря прибыли" %}</strong>
+                        <span class="text-muted small">{% trans "Агрессивный демпинг сильно бьет по маржинальности, не всегда окупаясь ростом оборота." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "3. Отложенный спрос" %}</strong>
+                        <span class="text-muted small">{% trans "Люди привыкают ждать акций и перестают покупать товар по его стандартной цене." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "4. Сложность контроля" %}</strong>
+                        <span class="text-muted small">{% trans "Плохая логистика или отсутствие товара в момент акции могут вызвать негатив и разочарование." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "5. Промо-зависимость" %}</strong>
+                        <span class="text-muted small">{% trans "Остановка акций может привести к резкому и болезненному падению уровня продаж." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "6. Затраты на реализацию" %}</strong>
+                        <span class="text-muted small">{% trans "Производство мерча и администрирование акций требуют серьезных вложений и ресурсов." %}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-info border-0 shadow-sm p-4 mt-4 text-dark">
+            <h4 class="alert-heading fw-bold">{% trans "Вывод" %}</h4>
+            <p class="mb-0">{% trans "Стимулирование сбыта способно дать быстрый результат, но требует ювелирной точности. Грамотно подобранные механизмы мотивации укрепят компанию, тогда как хаотичные скидки могут разрушить ценность бренда." %}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

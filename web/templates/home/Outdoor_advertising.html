@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Наружная реклама" %}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'homepage:index' %}">{% trans "Главная" %}</a></li>
+                <li class="breadcrumb-item active">{% trans "Наружная реклама" %}</li>
+            </ol>
+        </nav>
+
+        <h1 class="display-5 mb-4 border-bottom pb-3">{% trans "Наружная реклама" %}</h1>
+        
+        <p class="lead text-dark fw-normal mb-5">
+            {% trans "Билборды, вывески, реклама на транспорте. Мощный инструмент охвата, чья эффективность напрямую зависит от локации и креативности дизайна." %}
+        </p>
+
+        <div class="card border-0 shadow-sm bg-light mb-5">
+            <div class="card-body p-4 text-dark">
+                <p class="mb-0">
+                    {% trans "Наружная реклама остается одним из самых заметных способов продвижения. Рассмотрим основные плюсы и минусы такого способа взаимодействия с аудиторией в городском пространстве." %}
+                </p>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-stretch">
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-success text-center">{% trans "Плюсы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "1. Высокая видимость" %}</strong>
+                        <span class="text-muted small">{% trans "Размещение в людных местах обеспечивает ежедневное внимание огромного количества людей." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "2. Простота восприятия" %}</strong>
+                        <span class="text-muted small">{% trans "Лаконичные сообщения легко считываются на ходу, быстро донося главную мысль до клиента." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "3. Широкий охват" %}</strong>
+                        <span class="text-muted small">{% trans "Позволяет охватить массовую аудиторию, особенно при правильном выборе географических точек." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "4. Имиджевая поддержка" %}</strong>
+                        <span class="text-muted small">{% trans "Постоянное присутствие в городе повышает узнаваемость и формирует доверие к бренду." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "5. Экономичность (отн. ТВ)" %}</strong>
+                        <span class="text-muted small">{% trans "Стоимость контакта часто ниже, чем на телевидении, при сопоставимых объемах аудитории." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "6. Долговечность воздействия" %}</strong>
+                        <span class="text-muted small">{% trans "Кампании могут длиться месяцами, обеспечивая стабильное визуальное присутствие." %}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-danger text-center">{% trans "Минусы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "1. Минимум деталей" %}</strong>
+                        <span class="text-muted small">{% trans "Ограниченное пространство не позволяет передать сложные идеи или подробные характеристики." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "2. Внешние факторы" %}</strong>
+                        <span class="text-muted small">{% trans "Погода, освещение и время суток могут существенно влиять на качество восприятия рекламы." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "3. Слабая сегментация" %}</strong>
+                        <span class="text-muted small">{% trans "Реклама воздействует на всех подряд, что снижает эффективность для узконишевых продуктов." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "4. Конкуренция внимания" %}</strong>
+                        <span class="text-muted small">{% trans "В перенасыщенной городской среде трудно заставить потребителя сфокусироваться именно на вашем щите." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "5. Износ и обновления" %}</strong>
+                        <span class="text-muted small">{% trans "Необходима регулярная смена материалов, чтобы они не выгорали и не надоедали аудитории." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "6. Законодательство" %}</strong>
+                        <span class="text-muted small">{% trans "Строгие городские правила и требования к размещению часто усложняют процесс согласования." %}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-info border-0 shadow-sm p-4 mt-4 text-dark">
+            <h4 class="alert-heading fw-bold">{% trans "Вывод" %}</h4>
+            <p class="mb-0">{% trans "Наружная реклама обладает огромным потенциалом охвата. Чтобы она работала на 100%, важно адаптироваться к среде, использовать инновационные подходы и делать ставку на мгновенную узнаваемость дизайна." %}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "SEO-оптимизация" %}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'homepage:index' %}">{% trans "Главная" %}</a></li>
+                <li class="breadcrumb-item active">{% trans "SEO-оптимизация" %}</li>
+            </ol>
+        </nav>
+
+        <h1 class="display-5 mb-4 border-bottom pb-3">{% trans "SEO-оптимизация" %}</h1>
+        
+        <p class="lead text-dark fw-normal mb-5">
+            {% trans "Повышение видимости сайта в поисковых системах (Яндекс, Google) для получения бесплатного трафика. Ключ к долгосрочному успеху в цифровом пространстве." %}
+        </p>
+
+        <div class="card border-0 shadow-sm bg-light mb-5">
+            <div class="card-body p-4 text-dark">
+                <p class="mb-0">
+                    {% trans "Эффективность SEO определяется уровнем конкуренции, техническим состоянием сайта и качеством контента. Это инвестиция в 'фундамент' вашего бизнеса, которая избавляет от полной зависимости от платной рекламы." %}
+                </p>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-stretch">
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-success text-center">{% trans "Плюсы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "1. Бесплатный трафик" %}</strong>
+                        <span class="text-muted small">{% trans "Вы получаете переходы из поиска бесплатно, что выгодно отличает SEO от платной рекламы." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "2. Долгосрочный результат" %}</strong>
+                        <span class="text-muted small">{% trans "Правильная оптимизация приносит пользу годами, удерживая сайт в топе даже после паузы в активных работах." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "3. Устойчивый поток" %}</strong>
+                        <span class="text-muted small">{% trans "Оптимизированный сайт генерирует стабильный приток целевых клиентов, повышая узнаваемость бренда." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "4. Удобство для пользователя" %}</strong>
+                        <span class="text-muted small">{% trans "SEO улучшает структуру, навигацию и скорость загрузки, делая сайт приятным для посетителей." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "5. Конкурентоспособность" %}</strong>
+                        <span class="text-muted small">{% trans "Высокие позиции выделяют вас среди конкурентов, создавая имидж лидера рынка." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "6. Комплексное улучшение" %}</strong>
+                        <span class="text-muted small">{% trans "Работа над поисковым продвижением помогает выявить и устранить технические слабые места всего ресурса." %}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-danger text-center">{% trans "Минусы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "1. Медленный эффект" %}</strong>
+                        <span class="text-muted small">{% trans "Достижение топа может занять месяцы или годы, особенно в нишах с высокой конкуренцией." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "2. Регулярные вложения" %}</strong>
+                        <span class="text-muted small">{% trans "Поддерживать позиции сложно: нужно постоянно вкладываться в контент, ссылки и техподдержку." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "3. Непредсказуемость" %}</strong>
+                        <span class="text-muted small">{% trans "Алгоритмы Яндекса и Google меняются, что может внезапно изменить положение сайта в выдаче." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "4. Вероятность санкций" %}</strong>
+                        <span class="text-muted small">{% trans "Ошибки или агрессивные методы (спам) могут привести к блокировке сайта в поисковых системах." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "5. Постоянное обновление" %}</strong>
+                        <span class="text-muted small">{% trans "Сайт нуждается в регулярном пополнении свежими материалами, иначе он быстро теряет релевантность." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "6. Трудоемкость" %}</strong>
+                        <span class="text-muted small">{% trans "SEO требует глубоких знаний и привлечения профильных экспертов, что увеличивает затраты на старте." %}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-info border-0 shadow-sm p-4 mt-4 text-dark">
+            <h4 class="alert-heading fw-bold">{% trans "Вывод" %}</h4>
+            <p class="mb-0">{% trans "SEO — это мощный марафонский инструмент. Успех здесь требует терпения, системности и адекватного бюджета, но в итоге он обеспечивает наилучшую окупаемость и стабильность бизнеса." %}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

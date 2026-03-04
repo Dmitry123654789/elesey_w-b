@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "SMM — Продвижение в соцсетях" %}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'homepage:index' %}">{% trans "Главная" %}</a></li>
+                <li class="breadcrumb-item active">{% trans "SMM" %}</li>
+            </ol>
+        </nav>
+
+        <h1 class="display-5 mb-4 border-bottom pb-3">{% trans "SMM (Социальные сети)" %}</h1>
+        
+        <p class="lead text-dark fw-normal mb-5">
+            {% trans "Продвижение через контент, сообщества, таргет и работу с блогерами. Инструмент, позволяющий бренду быть 'на одной волне' со своим клиентом." %}
+        </p>
+
+        <div class="card border-0 shadow-sm bg-light mb-5">
+            <div class="card-body p-4 text-dark">
+                <p class="mb-0">
+                    {% trans "Социальные сети объединяют миллионы пользователей. Успех здесь зависит от умения создавать вовлекающий контент, точно настраивать таргетированную рекламу и выстраивать искренние отношения с аудиторией." %}
+                </p>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-stretch">
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-success text-center">{% trans "Плюсы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "1. Прямой контакт" %}</strong>
+                        <span class="text-muted small">{% trans "Диалог с пользователями в реальном времени формирует лояльность и искреннее доверие к бренду." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "2. Огромная аудитория" %}</strong>
+                        <span class="text-muted small">{% trans "Миллионы активных пользователей позволяют быстро масштабировать охват и находить новые сегменты клиентов." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "3. Высокая вовлеченность" %}</strong>
+                        <span class="text-muted small">{% trans "Опросы, игры и прямые эфиры вовлекают подписчиков гораздо сильнее, чем традиционная реклама." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "4. Точный таргетинг" %}</strong>
+                        <span class="text-muted small">{% trans "Показ рекламы по интересам и поведению экономит бюджет, обращаясь только к заинтересованным лицам." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "5. Доступ к молодежи" %}</strong>
+                        <span class="text-muted small">{% trans "Соцсети — это основной канал коммуникации с молодой и платежеспособной аудиторией будущего." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "6. Влияние через блогеров" %}</strong>
+                        <span class="text-muted small">{% trans "Рекомендация от инфлюенсера воспринимается как совет друга, что кратно повышает доверие к продукту." %}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-danger text-center">{% trans "Минусы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "1. Огромная конкуренция" %}</strong>
+                        <span class="text-muted small">{% trans "В перенасыщенной ленте постов трудно выделиться без оригинальных идей и больших вложений." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "2. Ресурсные затраты" %}</strong>
+                        <span class="text-muted small">{% trans "Модерация, создание контента и ответы на комментарии требуют ежедневного участия целой команды." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "3. Стоимость рекламы" %}</strong>
+                        <span class="text-muted small">{% trans "Аукционная модель в таргете постоянно дорожает, что требует крайне внимательной аналитики." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "4. Публичный негатив" %}</strong>
+                        <span class="text-muted small">{% trans "Любой недовольный клиент может мгновенно распространить жалобу, требуя быстрой реакции PR-отдела." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "5. Короткий цикл жизни" %}</strong>
+                        <span class="text-muted small">{% trans "Посты быстро устаревают и вытесняются новыми, что обязывает бренд выпускать контент непрерывно." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "6. Скепсис к нативности" %}</strong>
+                        <span class="text-muted small">{% trans "Пользователи становятся опытнее и часто настороженно относятся к рекламе у блогеров." %}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-info border-0 shadow-sm p-4 mt-4 text-dark">
+            <h4 class="alert-heading fw-bold">{% trans "Вывод" %}</h4>
+            <p class="mb-0">{% trans "SMM — это мощный инструмент персонализации. Эффективность здесь зависит от гибкости стратегии и готовности бренда инвестировать в качественный контент и искреннюю коммуникацию с людьми." %}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

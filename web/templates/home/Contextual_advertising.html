@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %} {% block title %}{% trans "Контекстная реклама" %}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'homepage:index' %}">{% trans "Главная" %}</a></li>
+                <li class="breadcrumb-item active">{% trans "Контекстная реклама" %}</li>
+            </ol>
+        </nav>
+
+        <h1 class="display-5 mb-4 border-bottom pb-3">{% trans "Контекстная реклама" %}</h1>
+        
+        <p class="lead text-dark fw-normal mb-5">
+            {% trans "Объявления, соответствующие запросам пользователей (Яндекс.Директ). Эффективный инструмент интернет-маркетинга для быстрого привлечения клиентов." %}
+        </p>
+
+        <div class="card border-0 shadow-sm bg-light mb-5">
+            <div class="card-body p-4 text-dark">
+                <p class="mb-0">{% trans "Контекстная реклама позволяет показывать объявления пользователям, ищущим товары или услуги в поисковых системах и на партнерских площадках. Одной из популярных платформ является Яндекс.Директ." %}</p>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-stretch"> <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-success text-center">{% trans "Плюсы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "1. Точное таргетирование" %}</strong>
+                        <span class="text-muted small">{% trans "Показ только заинтересованным пользователям, минимизация нецелевых расходов." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "2. Быстрая реакция" %}</strong>
+                        <span class="text-muted small">{% trans "Возможность мгновенного запуска и корректировки кампаний в реальном времени." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "3. Измеримость" %}</strong>
+                        <span class="text-muted small">{% trans "Детальная аналитика по каждому клику и вложенному рублю." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "4. Автоматизация" %}</strong>
+                        <span class="text-muted small">{% trans "Автоматическое управление ставками экономит время владельца бизнеса." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "5. Экономия (CPC)" %}</strong>
+                        <span class="text-muted small">{% trans "Оплата только за фактический переход, полный контроль бюджета." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "6. Ретаргетинг" %}</strong>
+                        <span class="text-muted small">{% trans "Возможность 'догнать' тех, кто уже был на сайте, но не купил." %}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-danger text-center">{% trans "Минусы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "1. Риск ошибок настройки" %}</strong>
+                        <span class="text-muted small">{% trans "Неверные ключевые слова могут быстро 'слить' рекламный бюджет." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "2. Высокая конкуренция" %}</strong>
+                        <span class="text-muted small">{% trans "В популярных нишах ставки за клик становятся очень высокими." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "3. Фрод и скликивание" %}</strong>
+                        <span class="text-muted small">{% trans "Боты и конкуренты могут искусственно накручивать платные клики." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "4. Краткосрочный эффект" %}</strong>
+                        <span class="text-muted small">{% trans "Трафик пропадает сразу после выключения рекламы." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "5. Постоянные затраты" %}</strong>
+                        <span class="text-muted small">{% trans "Для получения заказов нужно платить поисковикам непрерывно." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1">
+                        <strong class="text-dark">{% trans "6. Сложность освоения" %}</strong>
+                        <span class="text-muted small">{% trans "Требуются специальные знания или найм профильного специалиста." %}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-info border-0 shadow-sm p-4 mt-4 text-dark">
+            <h4 class="alert-heading fw-bold">{% trans "Вывод" %}</h4>
+            <p class="mb-0">{% trans "Контекстная реклама — мощный инструмент, обеспечивающий точный таргетинг и быструю реакцию. Но она требует аккуратного подбора стратегии и регулярного мониторинга для максимального возврата инвестиций (ROI)." %}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

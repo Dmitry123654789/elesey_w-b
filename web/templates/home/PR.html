@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "PR и СМИ" %}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'homepage:index' %}">{% trans "Главная" %}</a></li>
+                <li class="breadcrumb-item active">{% trans "PR и СМИ" %}</li>
+            </ol>
+        </nav>
+
+        <h1 class="display-5 mb-4 border-bottom pb-3">{% trans "PR и СМИ" %}</h1>
+        
+        <p class="lead text-dark fw-normal mb-5">
+            {% trans "Публикации в прессе, сюжеты на ТВ и радио. Классический способ формирования общественного мнения и укрепления престижа бренда." %}
+        </p>
+
+        <div class="card border-0 shadow-sm bg-light mb-5">
+            <div class="card-body p-4 text-dark">
+                <p class="mb-0">
+                    {% trans "PR остается эффективным инструментом даже в цифровую эпоху. Упоминание в авторитетных медиа воспринимается аудиторией как объективное признание, что вызывает гораздо больше доверия, чем прямая реклама." %}
+                </p>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-stretch">
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-success text-center">{% trans "Плюсы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "1. Доверие и престиж" %}</strong>
+                        <span class="text-muted small">{% trans "Публикация в уважаемом издании укрепляет репутацию и выглядит надежнее обычной рекламы." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "2. Широкий охват" %}</strong>
+                        <span class="text-muted small">{% trans "Традиционные медиа позволяют достучаться до массовой аудитории на локальных и федеральных рынках." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "3. Глубина подачи" %}</strong>
+                        <span class="text-muted small">{% trans "Формат статьи или интервью позволяет рассказать историю бренда и вызвать эмоциональный отклик." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "4. Социальные сигналы" %}</strong>
+                        <span class="text-muted small">{% trans "Упоминания в известных источниках подтверждают надежность и успешность вашей компании." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "5. Разнообразие форматов" %}</strong>
+                        <span class="text-muted small">{% trans "От коротких обзоров до глубокой аналитики — вы можете выбрать идеальный способ подачи материала." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-success border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "6. Конвергенция с Digital" %}</strong>
+                        <span class="text-muted small">{% trans "Современные СМИ публикуют материалы онлайн, что упрощает их вирусное распространение в соцсетях." %}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4 d-flex flex-column">
+                <h2 class="h3 mb-3 text-danger text-center">{% trans "Минусы" %}</h2>
+                <div class="list-group flex-grow-1">
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "1. Зависимость от редакторов" %}</strong>
+                        <span class="text-muted small">{% trans "Журналисты могут исказить информацию или интерпретировать факты не в пользу вашего бренда." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "2. Нужен инфоповод" %}</strong>
+                        <span class="text-muted small">{% trans "СМИ не опубликуют материал, если он не содержит по-настоящему интересного или уникального события." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "3. Долгая реализация" %}</strong>
+                        <span class="text-muted small">{% trans "Подготовка пресс-релиза и переговоры занимают много времени, что мешает оперативной реакции." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "4. Потеря молодой аудитории" %}</strong>
+                        <span class="text-muted small">{% trans "Традиционные медиа теряют популярность у молодежи, предпочитающей соцсети и приложения." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "5. Репутационные риски" %}</strong>
+                        <span class="text-muted small">{% trans "Одна неудачная публикация или ошибка в комментарии может надолго испортить имидж компании." %}</span>
+                    </div>
+                    <div class="list-group-item d-flex flex-column justify-content-center border-start border-danger border-4 mb-2 shadow-sm flex-grow-1 p-3">
+                        <strong class="text-dark">{% trans "6. Жесткая конкуренция" %}</strong>
+                        <span class="text-muted small">{% trans "Количество компаний, желающих попасть в эфир, растет, требуя всё более нестандартных подходов." %}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-info border-0 shadow-sm p-4 mt-4 text-dark">
+            <h4 class="alert-heading fw-bold">{% trans "Вывод" %}</h4>
+            <p class="mb-0">{% trans "PR и работа со СМИ требуют профессиональной команды и грамотной стратегии. При правильном подходе этот инструмент создает прочный фундамент доверия, который невозможно купить за деньги в обычной рекламе." %}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

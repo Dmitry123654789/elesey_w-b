@@ -1,0 +1,1799 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-04 22:58+0300\n"
+"PO-Revision-Date: 2026-03-04 23:15+0300\n"
+"Last-Translator: Gemini\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\views.py:11 .\templates\home\Outdoor_advertising.html:5
+#: .\templates\home\Outdoor_advertising.html:13
+#: .\templates\home\Outdoor_advertising.html:17
+msgid "Наружная реклама"
+msgstr "Outdoor Advertising"
+
+#: .\home\views.py:12 .\templates\home\Event_marketing.html:5
+#: .\templates\home\Event_marketing.html:13
+#: .\templates\home\Event_marketing.html:17
+msgid "Событийный маркетинг"
+msgstr "Event Marketing"
+
+#: .\home\views.py:13 .\templates\home\PR.html:5 .\templates\home\PR.html:13
+#: .\templates\home\PR.html:17
+msgid "PR и СМИ"
+msgstr "PR and Media"
+
+#: .\home\views.py:14 .\templates\home\Sales_Promotion.html:5
+#: .\templates\home\Sales_Promotion.html:13
+#: .\templates\home\Sales_Promotion.html:17
+msgid "Стимулирование сбыта"
+msgstr "Sales Promotion"
+
+#: .\home\views.py:15 .\templates\home\SEO.html:5 .\templates\home\SEO.html:13
+#: .\templates\home\SEO.html:17
+msgid "SEO-оптимизация"
+msgstr "SEO Optimization"
+
+#: .\home\views.py:16 .\templates\home\Contextual_advertising.html:3
+#: .\templates\home\Contextual_advertising.html:11
+#: .\templates\home\Contextual_advertising.html:15
+msgid "Контекстная реклама"
+msgstr "Contextual Advertising"
+
+#: .\home\views.py:18 .\templates\home\Content_marketing.html:5
+#: .\templates\home\Content_marketing.html:13
+#: .\templates\home\Content_marketing.html:17
+msgid "Контент-маркетинг"
+msgstr "Content Marketing"
+
+#: .\home\views.py:19 .\templates\home\Email_marketing.html:5
+#: .\templates\home\Email_marketing.html:13
+#: .\templates\home\Email_marketing.html:17
+msgid "Email маркетинг"
+msgstr "Email Marketing"
+
+#: .\templates\base.html:36
+msgid "Контент_не_подвезли"
+msgstr "Content_not_delivered"
+
+#: .\templates\home\Content_marketing.html:12
+#: .\templates\home\Contextual_advertising.html:10
+#: .\templates\home\Email_marketing.html:12
+#: .\templates\home\Event_marketing.html:12
+#: .\templates\home\Outdoor_advertising.html:12 .\templates\home\PR.html:12
+#: .\templates\home\SEO.html:12 .\templates\home\SERM.html:12
+#: .\templates\home\SMM.html:12 .\templates\home\Sales_Promotion.html:12
+msgid "Главная"
+msgstr "Home"
+
+#: .\templates\home\Content_marketing.html:20
+msgid ""
+"Создание полезного контента (статьи, видео) для привлечения и удержания "
+"клиентов. Форма продвижения, основанная на ценности и доверии."
+msgstr ""
+"Creating useful content (articles, videos) to attract and retain customers. "
+"A form of promotion based on value and trust."
+
+#: .\templates\home\Content_marketing.html:26
+msgid ""
+"В современных реалиях данная методика приобретает особую важность, так как "
+"пользователи становятся более избирательными и требовательными к содержанию. "
+"Контент-маркетинг помогает бренду говорить с аудиторией на языке пользы."
+msgstr ""
+"In today's reality, this method is of particular importance as users become "
+"more selective and demanding of content. Content marketing helps a brand "
+"speak to its audience in the language of utility."
+
+#: .\templates\home\Content_marketing.html:33
+#: .\templates\home\Contextual_advertising.html:28
+#: .\templates\home\Email_marketing.html:33
+#: .\templates\home\Event_marketing.html:33
+#: .\templates\home\Outdoor_advertising.html:33 .\templates\home\PR.html:33
+#: .\templates\home\SEO.html:33 .\templates\home\SERM.html:33
+#: .\templates\home\SMM.html:33 .\templates\home\Sales_Promotion.html:33
+msgid "Плюсы"
+msgstr "Pros"
+
+#: .\templates\home\Content_marketing.html:36
+msgid "1. Выделение среди конкурентов"
+msgstr "1. Standing out from competitors"
+
+#: .\templates\home\Content_marketing.html:37
+msgid ""
+"Уникальный контент подчеркивает вашу экспертизу и профессионализм на фоне "
+"других компаний."
+msgstr ""
+"Unique content highlights your expertise and professionalism compared to "
+"other companies."
+
+#: .\templates\home\Content_marketing.html:40
+msgid "2. Органический трафик"
+msgstr "2. Organic traffic"
+
+#: .\templates\home\Content_marketing.html:41
+msgid ""
+"Регулярные публикации повышают рейтинг в Яндекс/Google, принося бесплатный "
+"поток клиентов."
+msgstr ""
+"Regular publications increase rankings in Yandex/Google, bringing a free "
+"flow of customers."
+
+#: .\templates\home\Content_marketing.html:44
+msgid "3. Доверительные отношения"
+msgstr "3. Trusting relationships"
+
+#: .\templates\home\Content_marketing.html:45
+msgid ""
+"Полезные советы и инструкции формируют лояльность — людям приятнее покупать "
+"у тех, кто помогает."
+msgstr ""
+"Useful tips and instructions build loyalty — people prefer to buy from those "
+"who help them."
+
+#: .\templates\home\Content_marketing.html:48
+msgid "4. Многоразовое использование"
+msgstr "4. Reusability"
+
+#: .\templates\home\Content_marketing.html:49
+msgid ""
+"Однажды созданная крутая статья или видео могут приносить пользу и клиентов "
+"годами."
+msgstr ""
+"Once created, a great article or video can provide value and attract "
+"customers for years."
+
+#: .\templates\home\Content_marketing.html:52
+msgid "5. Демонстрация продукта"
+msgstr "5. Product demonstration"
+
+#: .\templates\home\Content_marketing.html:53
+msgid ""
+"Показ функций товара через рекомендации усиливает желание купить, так как "
+"видна реальная польза."
+msgstr ""
+"Showcasing product features through recommendations strengthens the desire to "
+"buy, as real value is visible."
+
+#: .\templates\home\Content_marketing.html:56
+msgid "6. Дух современности"
+msgstr "6. Modern spirit"
+
+#: .\templates\home\Content_marketing.html:57
+msgid ""
+"Метод отвечает потребностям современных людей — изучить вопрос глубоко перед "
+"совершением покупки."
+msgstr ""
+"The method meets the needs of modern people — to research a topic deeply "
+"before making a purchase."
+
+#: .\templates\home\Content_marketing.html:63
+#: .\templates\home\Contextual_advertising.html:58
+#: .\templates\home\Email_marketing.html:63
+#: .\templates\home\Event_marketing.html:63
+#: .\templates\home\Outdoor_advertising.html:63 .\templates\home\PR.html:63
+#: .\templates\home\SEO.html:63 .\templates\home\SERM.html:63
+#: .\templates\home\SMM.html:63 .\templates\home\Sales_Promotion.html:63
+msgid "Минусы"
+msgstr "Cons"
+
+#: .\templates\home\Content_marketing.html:66
+msgid "1. Огромные ресурсы"
+msgstr "1. Massive resources"
+
+#: .\templates\home\Content_marketing.html:67
+msgid ""
+"Создание качества требует времени и целой команды: авторов, дизайнеров и "
+"техспециалистов."
+msgstr ""
+"Creating quality content requires time and a whole team: authors, designers, "
+"and technical specialists."
+
+#: .\templates\home\Content_marketing.html:70
+msgid "2. Замедленный эффект"
+msgstr "2. Delayed effect"
+
+#: .\templates\home\Content_marketing.html:71
+msgid ""
+"В отличие от рекламы, здесь нужны месяцы или годы для накопления базы и "
+"аудитории."
+msgstr ""
+"Unlike advertising, this requires months or years to build a database and an "
+"audience."
+
+#: .\templates\home\Content_marketing.html:74 .\templates\home\SEO.html:74
+msgid "3. Непредсказуемость"
+msgstr "3. Unpredictability"
+
+#: .\templates\home\Content_marketing.html:75
+msgid ""
+"Невозможно гарантировать, какой материал станет 'вирусным', а какой — нет."
+msgstr ""
+"It is impossible to guarantee which material will go 'viral' and which will "
+"not."
+
+#: .\templates\home\Content_marketing.html:78
+msgid "4. Постоянное обновление"
+msgstr "4. Constant updates"
+
+#: .\templates\home\Content_marketing.html:79
+msgid ""
+"Информация быстро устаревает, нужно регулярно актуализировать старые "
+"материалы."
+msgstr ""
+"Information becomes outdated quickly; old materials must be regularly "
+"updated."
+
+#: .\templates\home\Content_marketing.html:82
+msgid "5. Утрата интереса"
+msgstr "5. Loss of interest"
+
+#: .\templates\home\Content_marketing.html:83
+msgid "Если контент становится шаблонным, аудитория быстро покидает площадку."
+msgstr "If content becomes clichéd, the audience quickly leaves the platform."
+
+#: .\templates\home\Content_marketing.html:86
+msgid "6. Репутационные риски"
+msgstr "6. Reputation risks"
+
+#: .\templates\home\Content_marketing.html:87
+msgid ""
+"Ошибки или недостоверные данные могут серьезно оттолкнуть пользователей и "
+"повредить бренду."
+msgstr ""
+"Errors or unreliable data can seriously alienate users and damage the brand."
+
+#: .\templates\home\Content_marketing.html:94
+#: .\templates\home\Contextual_advertising.html:89
+#: .\templates\home\Email_marketing.html:94
+#: .\templates\home\Event_marketing.html:94
+#: .\templates\home\Outdoor_advertising.html:94 .\templates\home\PR.html:94
+#: .\templates\home\SEO.html:94 .\templates\home\SERM.html:94
+#: .\templates\home\SMM.html:94 .\templates\home\Sales_Promotion.html:94
+msgid "Вывод"
+msgstr "Conclusion"
+
+#: .\templates\home\Content_marketing.html:95
+msgid ""
+"Контент-маркетинг — это инвестиция в долгосрочное доверие. Успех зависит от "
+"качества материалов, частоты обновления и понимания нужд вашей аудитории."
+msgstr ""
+"Content marketing is an investment in long-term trust. Success depends on the "
+"quality of materials, frequency of updates, and understanding your "
+"audience's needs."
+
+#: .\templates\home\Contextual_advertising.html:18
+msgid ""
+"Объявления, соответствующие запросам пользователей (Яндекс.Директ). "
+"Эффективный инструмент интернет-маркетинга для быстрого привлечения клиентов."
+msgstr ""
+"Ads matching user queries (Yandex.Direct). An effective digital marketing "
+"tool for rapid customer acquisition."
+
+#: .\templates\home\Contextual_advertising.html:23
+msgid ""
+"Контекстная реклама позволяет показывать объявления пользователям, ищущим "
+"товары или услуги в поисковых системах и на партнерских площадках. Одной из "
+"популярных платформ является Яндекс.Директ."
+msgstr ""
+"Contextual advertising allows you to show ads to users searching for goods "
+"or services in search engines and on partner sites. One popular platform "
+"is Yandex.Direct."
+
+#: .\templates\home\Contextual_advertising.html:31
+msgid "1. Точное таргетирование"
+msgstr "1. Precise targeting"
+
+#: .\templates\home\Contextual_advertising.html:32
+msgid ""
+"Показ только заинтересованным пользователям, минимизация нецелевых расходов."
+msgstr ""
+"Displaying only to interested users, minimizing non-targeted spending."
+
+#: .\templates\home\Contextual_advertising.html:35
+msgid "2. Быстрая реакция"
+msgstr "2. Rapid response"
+
+#: .\templates\home\Contextual_advertising.html:36
+msgid ""
+"Возможность мгновенного запуска и корректировки кампаний в реальном времени."
+msgstr ""
+"Ability to instantly launch and adjust campaigns in real-time."
+
+#: .\templates\home\Contextual_advertising.html:39
+msgid "3. Измеримость"
+msgstr "3. Measurability"
+
+#: .\templates\home\Contextual_advertising.html:40
+msgid "Детальная аналитика по каждому клику и вложенному рублю."
+msgstr "Detailed analytics for every click and every ruble spent."
+
+#: .\templates\home\Contextual_advertising.html:43
+#: .\templates\home\Email_marketing.html:48
+msgid "4. Автоматизация"
+msgstr "4. Automation"
+
+#: .\templates\home\Contextual_advertising.html:44
+msgid "Автоматическое управление ставками экономит время владельца бизнеса."
+msgstr "Automated bid management saves business owners time."
+
+#: .\templates\home\Contextual_advertising.html:47
+msgid "5. Экономия (CPC)"
+msgstr "5. Savings (CPC)"
+
+#: .\templates\home\Contextual_advertising.html:48
+msgid "Оплата только за фактический переход, полный контроль бюджета."
+msgstr "Pay only for actual clicks, full budget control."
+
+#: .\templates\home\Contextual_advertising.html:51
+msgid "6. Ретаргетинг"
+msgstr "6. Retargeting"
+
+#: .\templates\home\Contextual_advertising.html:52
+msgid "Возможность 'догнать' тех, кто уже был на сайте, но не купил."
+msgstr "Ability to 'catch up' with those who have already visited the site but didn't buy."
+
+#: .\templates\home\Contextual_advertising.html:61
+msgid "1. Риск ошибок настройки"
+msgstr "1. Risk of configuration errors"
+
+#: .\templates\home\Contextual_advertising.html:62
+msgid "Неверные ключевые слова могут быстро 'слить' рекламный бюджет."
+msgstr "Incorrect keywords can quickly 'drain' the advertising budget."
+
+#: .\templates\home\Contextual_advertising.html:65
+msgid "2. Высокая конкуренция"
+msgstr "2. High competition"
+
+#: .\templates\home\Contextual_advertising.html:66
+msgid "В популярных нишах ставки за клик становятся очень высокими."
+msgstr "In popular niches, cost-per-click rates become very high."
+
+#: .\templates\home\Contextual_advertising.html:69
+msgid "3. Фрод и скликивание"
+msgstr "3. Fraud and click-spam"
+
+#: .\templates\home\Contextual_advertising.html:70
+msgid "Боты и конкуренты могут искусственно накручивать платные клики."
+msgstr "Bots and competitors can artificially inflate paid clicks."
+
+#: .\templates\home\Contextual_advertising.html:73
+msgid "4. Краткосрочный эффект"
+msgstr "4. Short-term effect"
+
+#: .\templates\home\Contextual_advertising.html:74
+msgid "Трафик пропадает сразу после выключения рекламы."
+msgstr "Traffic disappears immediately after the ads are turned off."
+
+#: .\templates\home\Contextual_advertising.html:77
+msgid "5. Постоянные затраты"
+msgstr "5. Constant costs"
+
+#: .\templates\home\Contextual_advertising.html:78
+msgid "Для получения заказов нужно платить поисковикам непрерывно."
+msgstr "To receive orders, you must pay search engines continuously."
+
+#: .\templates\home\Contextual_advertising.html:81
+msgid "6. Сложность освоения"
+msgstr "6. Complexity"
+
+#: .\templates\home\Contextual_advertising.html:82
+msgid "Требуются специальные знания или найм профильного специалиста."
+msgstr "Requires special knowledge or hiring a specialist."
+
+#: .\templates\home\Contextual_advertising.html:90
+msgid ""
+"Контекстная реклама — мощный инструмент, обеспечивающий точный таргетинг и "
+"быструю реакцию. Но она требует аккуратного подбора стратегии и регулярного "
+"мониторинга для максимального возврата инвестиций (ROI)."
+msgstr ""
+"Contextual advertising is a powerful tool providing precise targeting and "
+"rapid response. However, it requires careful strategy selection and regular "
+"monitoring for maximum return on investment (ROI)."
+
+#: .\templates\home\Email_marketing.html:20
+msgid ""
+"Рассылки для повышения лояльности и повторных продаж. Проверенный временем "
+"канал прямой коммуникации с вашей аудиторией."
+msgstr ""
+"Newsletters for increasing loyalty and repeat sales. A time-tested channel "
+"for direct communication with your audience."
+
+#: .\templates\home\Email_marketing.html:26
+msgid ""
+"Email-маркетинг используется компаниями для укрепления взаимоотношений с "
+"покупателями. Эффективность инструмента напрямую зависит от стратегии, "
+"качества контента и соблюдения законодательных норм."
+msgstr ""
+"Email marketing is used by companies to strengthen relationships with buyers. "
+"The tool's effectiveness directly depends on strategy, content quality, and "
+"legal compliance."
+
+#: .\templates\home\Email_marketing.html:36
+msgid "1. Персональные предложения"
+msgstr "1. Personalized offers"
+
+#: .\templates\home\Email_marketing.html:37
+msgid ""
+"Сегментация базы позволяет отправлять индивидуальные письма, что в разы "
+"повышает открываемость и клики."
+msgstr ""
+"Database segmentation allows sending individual emails, which significantly "
+"increases open and click rates."
+
+#: .\templates\home\Email_marketing.html:40
+msgid "2. Низкая стоимость"
+msgstr "2. Low cost"
+
+#: .\templates\home\Email_marketing.html:41
+msgid ""
+"Сравнительно недорогой инструмент с низкими операционными расходами, "
+"доступный бизнесу любого масштаба."
+msgstr ""
+"A relatively inexpensive tool with low operating costs, accessible to "
+"businesses of any scale."
+
+#: .\templates\home\Email_marketing.html:44
+msgid "3. Повторные обращения"
+msgstr "3. Repeat engagement"
+
+#: .\templates\home\Email_marketing.html:45
+msgid ""
+"Собственная база подписчиков дает возможность бесплатно возвращать клиентов "
+"за новыми покупками."
+msgstr ""
+"Your own subscriber base provides the opportunity to bring customers back "
+"for new purchases for free."
+
+#: .\templates\home\Email_marketing.html:49
+msgid ""
+"Триггерные письма (приветствия, брошенные корзины) работают на автопилоте и "
+"экономят ваше время."
+msgstr ""
+"Trigger emails (greetings, abandoned carts) work on autopilot and save "
+"your time."
+
+#: .\templates\home\Email_marketing.html:52
+msgid "5. Обратная связь"
+msgstr "5. Feedback"
+
+#: .\templates\home\Email_marketing.html:53
+msgid ""
+"Удобный способ проводить опросы и узнавать мнение клиентов для улучшения "
+"вашего сервиса."
+msgstr ""
+"A convenient way to conduct surveys and learn customer opinions to improve "
+"your service."
+
+#: .\templates\home\Email_marketing.html:56
+msgid "6. Детальная аналитика"
+msgstr "6. Detailed analytics"
+
+#: .\templates\home\Email_marketing.html:57
+msgid ""
+"Вы видите всё: кто открыл письмо, кто нажал на ссылку, а кто отписался. Это "
+"позволяет быстро улучшать стратегию."
+msgstr ""
+"You see everything: who opened the email, who clicked the link, and who "
+"unsubscribed. This allows for quick strategy improvements."
+
+#: .\templates\home\Email_marketing.html:66
+msgid "1. Спам-фильтры"
+msgstr "1. Spam filters"
+
+#: .\templates\home\Email_marketing.html:67
+msgid ""
+"Письма могут попасть в спам. Нужно строго соблюдать технические стандарты, "
+"чтобы доходить до адресата."
+msgstr ""
+"Emails can end up in spam. You must strictly follow technical standards "
+"to reach the recipient."
+
+#: .\templates\home\Email_marketing.html:70
+msgid "2. Риск раздражения"
+msgstr "2. Risk of annoyance"
+
+#: .\templates\home\Email_marketing.html:71
+msgid ""
+"Слишком частые или скучные рассылки злят пользователей и ведут к массовым "
+"отпискам."
+msgstr ""
+"Too frequent or boring newsletters annoy users and lead to mass "
+"unsubscriptions."
+
+#: .\templates\home\Email_marketing.html:74
+msgid "3. Скептицизм аудитории"
+msgstr "3. Audience skepticism"
+
+#: .\templates\home\Email_marketing.html:75
+msgid ""
+"Люди привыкли игнорировать рекламу в почте. Без уникальной пользы ваше "
+"письмо просто удалят."
+msgstr ""
+"People are used to ignoring advertising in their mail. Without unique value, "
+"your email will simply be deleted."
+
+#: .\templates\home\Email_marketing.html:78
+msgid "4. Технические сложности"
+msgstr "4. Technical difficulties"
+
+#: .\templates\home\Email_marketing.html:79
+msgid ""
+"Верстка может 'поехать' на смартфонах или в разных почтовых сервисах, снижая "
+"эффективность."
+msgstr ""
+"Layout can break on smartphones or in different email services, reducing "
+"effectiveness."
+
+#: .\templates\home\Email_marketing.html:82
+msgid "5. Выгорание базы"
+msgstr "5. List fatigue"
+
+#: .\templates\home\Email_marketing.html:83
+msgid ""
+"База постоянно сокращается (люди меняют почту или уходят), требуется "
+"непрерывный приток новых подписчиков."
+msgstr ""
+"The database is constantly shrinking (people change emails or leave); a "
+"continuous flow of new subscribers is required."
+
+#: .\templates\home\Email_marketing.html:86
+msgid "6. Юридические риски"
+msgstr "6. Legal risks"
+
+#: .\templates\home\Email_marketing.html:87
+msgid ""
+"Нарушение законов о персональных данных грозит огромными штрафами. Нужно "
+"хранить данные правильно."
+msgstr ""
+"Violation of personal data laws risks huge fines. Data must be stored "
+"correctly."
+
+#: .\templates\home\Email_marketing.html:95
+msgid ""
+"Email-маркетинг остается мощным инструментом, если подходить к нему "
+"грамотно. При правильном контенте он способен значительно увеличить "
+"лояльность и продажи, обеспечивая высокий возврат инвестиций."
+msgstr ""
+"Email marketing remains a powerful tool if approached wisely. With the "
+"right content, it can significantly increase loyalty and sales, providing a "
+"high return on investment."
+
+#: .\templates\home\Event_marketing.html:20
+msgid ""
+"Организация и участие в выставках, конференциях. Эффективный способ прямого "
+"взаимодействия с целевой аудиторией и установления личных контактов."
+msgstr ""
+"Organizing and participating in exhibitions and conferences. An effective "
+"way of direct interaction with the target audience and establishing personal contacts."
+
+#: .\templates\home\Event_marketing.html:26
+msgid ""
+"Участие в отраслевых мероприятиях позволяет бренду выйти за рамки цифрового "
+"экрана и заявить о себе вживую. Несмотря на технологический прогресс, личное "
+"общение остается мощнейшим инструментом формирования доверия."
+msgstr ""
+"Participating in industry events allows a brand to go beyond the digital "
+"screen and declare itself live. Despite technological progress, personal "
+"communication remains the most powerful tool for building trust."
+
+#: .\templates\home\Event_marketing.html:36
+msgid "1. Осведомленность о продукте"
+msgstr "1. Product awareness"
+
+#: .\templates\home\Event_marketing.html:37
+msgid ""
+"Обеспечивает широкую экспозицию перед заинтересованной аудиторией и "
+"привлекает внимание к бренду."
+msgstr ""
+"Provides wide exposure to an interested audience and draws attention to the brand."
+
+#: .\templates\home\Event_marketing.html:40
+msgid "2. Личный контакт"
+msgstr "2. Personal contact"
+
+#: .\templates\home\Event_marketing.html:41
+msgid ""
+"Уникальная возможность лично общаться с посетителями, отвечать на вопросы и "
+"получать живую обратную связь."
+msgstr ""
+"A unique opportunity to personally communicate with visitors, answer questions, "
+"and receive live feedback."
+
+#: .\templates\home\Event_marketing.html:44
+msgid "3. Презентация новинок"
+msgstr "3. Presentation of new products"
+
+#: .\templates\home\Event_marketing.html:45
+msgid ""
+"Выставки — идеальное место для запуска новых продуктов и привлечения "
+"внимания профильной прессы."
+msgstr ""
+"Exhibitions are the ideal place for launching new products and attracting "
+"the attention of the trade press."
+
+#: .\templates\home\Event_marketing.html:48
+msgid "4. Качественные лиды"
+msgstr "4. Quality leads"
+
+#: .\templates\home\Event_marketing.html:49
+msgid ""
+"Посетители мероприятий — это максимально квалифицированная и "
+"заинтересованная в теме аудитория."
+msgstr ""
+"Event visitors are a highly qualified audience interested in the topic."
+
+#: .\templates\home\Event_marketing.html:52
+msgid "5. Отраслевые инсайты"
+msgstr "5. Industry insights"
+
+#: .\templates\home\Event_marketing.html:53
+msgid ""
+"Возможность следить за новыми технологиями, действиями конкурентов и "
+"актуальными трендами рынка."
+msgstr ""
+"Ability to track new technologies, competitor actions, and current market trends."
+
+#: .\templates\home\Event_marketing.html:56
+msgid "6. Корпоративный имидж"
+msgstr "6. Corporate image"
+
+#: .\templates\home\Event_marketing.html:57
+msgid ""
+"Профессиональный стенд укрепляет репутацию компании в глазах партнеров и "
+"экспертов отрасли."
+msgstr ""
+"A professional booth strengthens the company's reputation in the eyes of "
+"partners and industry experts."
+
+#: .\templates\home\Event_marketing.html:66
+msgid "1. Высокие затраты"
+msgstr "1. High costs"
+
+#: .\templates\home\Event_marketing.html:67
+msgid ""
+"Аренда места, оформление стенда, логистика и персонал требуют серьезных "
+"финансовых вложений."
+msgstr ""
+"Space rental, booth design, logistics, and personnel require significant financial investments."
+
+#: .\templates\home\Event_marketing.html:70
+msgid "2. Сложность организации"
+msgstr "2. Organizational complexity"
+
+#: .\templates\home\Event_marketing.html:71
+msgid ""
+"Требуется тщательная подготовка: от концепции экспозиции до обучения "
+"сотрудников работе 'в полях'."
+msgstr ""
+"Requires careful preparation: from the exposition concept to training employees for 'field' work."
+
+#: .\templates\home\Event_marketing.html:74
+msgid "3. Риск низкой посещаемости"
+msgstr "3. Risk of low attendance"
+
+#: .\templates\home\Event_marketing.html:75
+msgid ""
+"Трудно гарантировать успех: внешние факторы могут снизить количество или "
+"качество трафика на событии."
+msgstr ""
+"It is difficult to guarantee success: external factors can reduce the quantity "
+"or quality of traffic at the event."
+
+#: .\templates\home\Event_marketing.html:78
+msgid "4. Трудность оценки"
+msgstr "4. Difficulty of evaluation"
+
+#: .\templates\home\Event_marketing.html:79
+msgid ""
+"Сложно измерить качественные изменения, такие как рост лояльности или "
+"отложенный эффект продаж."
+msgstr ""
+"It is difficult to measure qualitative changes, such as growth in loyalty or "
+"delayed sales effects."
+
+#: .\templates\home\Event_marketing.html:82
+msgid "5. Информационный шум"
+msgstr "5. Information noise"
+
+#: .\templates\home\Event_marketing.html:83
+msgid ""
+"Из-за обилия предложений на одной площадке ваше сообщение рискует затеряться "
+"среди конкурентов."
+msgstr ""
+"Due to the abundance of offers on one platform, your message risks getting "
+"lost among competitors."
+
+#: .\templates\home\Event_marketing.html:86
+msgid "6. Нехватка гибкости"
+msgstr "6. Lack of flexibility"
+
+#: .\templates\home\Event_marketing.html:87
+msgid ""
+"События планируются заранее, и форс-мажоры (вроде пандемий) могут полностью "
+"сорвать планы."
+msgstr ""
+"Events are planned in advance, and force majeure (like pandemics) can completely "
+"disrupt plans."
+
+#: .\templates\home\Event_marketing.html:95
+msgid ""
+"Событийный маркетинг — это важный инструмент для укрепления бренда и "
+"налаживания связей. Чтобы добиться максимальной отдачи, крайне важно "
+"подходить к подготовке мероприятий профессионально и продуманно."
+msgstr ""
+"Event marketing is an important tool for brand building and networking. "
+"To achieve maximum return, it is crucial to approach event preparation "
+"professionally and thoughtfully."
+
+#: .\templates\home\Outdoor_advertising.html:20
+msgid ""
+"Билборды, вывески, реклама на транспорте. Мощный инструмент охвата, чья "
+"эффективность напрямую зависит от локации и креативности дизайна."
+msgstr ""
+"Billboards, signs, transit advertising. A powerful reach tool whose "
+"effectiveness directly depends on location and design creativity."
+
+#: .\templates\home\Outdoor_advertising.html:26
+msgid ""
+"Наружная реклама остается одним из самых заметных способов продвижения. "
+"Рассмотрим основные плюсы и минусы такого способа взаимодействия с "
+"аудиторией в городском пространстве."
+msgstr ""
+"Outdoor advertising remains one of the most visible ways of promotion. "
+"Let's look at the main pros and cons of this way of interacting with "
+"audiences in the urban space."
+
+#: .\templates\home\Outdoor_advertising.html:36
+msgid "1. Высокая видимость"
+msgstr "1. High visibility"
+
+#: .\templates\home\Outdoor_advertising.html:37
+msgid ""
+"Размещение в людных местах обеспечивает ежедневное внимание огромного "
+"количества людей."
+msgstr ""
+"Placement in crowded places ensures daily attention from a huge number of people."
+
+#: .\templates\home\Outdoor_advertising.html:40
+msgid "2. Простота восприятия"
+msgstr "2. Ease of perception"
+
+#: .\templates\home\Outdoor_advertising.html:41
+msgid ""
+"Лаконичные сообщения легко считываются на ходу, быстро донося главную мысль "
+"до клиента."
+msgstr ""
+"Concise messages are easily read on the go, quickly conveying the main point "
+"to the client."
+
+#: .\templates\home\Outdoor_advertising.html:44
+msgid "3. Широкий охват"
+msgstr "3. Wide reach"
+
+#: .\templates\home\Outdoor_advertising.html:45
+msgid ""
+"Позволяет охватить массовую аудиторию, особенно при правильном выборе "
+"географических точек."
+msgstr ""
+"Allows for reaching a mass audience, especially with the correct choice "
+"of geographical points."
+
+#: .\templates\home\Outdoor_advertising.html:48
+msgid "4. Имиджевая поддержка"
+msgstr "4. Image support"
+
+#: .\templates\home\Outdoor_advertising.html:49
+msgid ""
+"Постоянное присутствие в городе повышает узнаваемость и формирует доверие к "
+"бренду."
+msgstr ""
+"Constant presence in the city increases awareness and builds trust in the brand."
+
+#: .\templates\home\Outdoor_advertising.html:52
+msgid "5. Экономичность (отн. ТВ)"
+msgstr "5. Cost-effectiveness (vs TV)"
+
+#: .\templates\home\Outdoor_advertising.html:53
+msgid ""
+"Стоимость контакта часто ниже, чем на телевидении, при сопоставимых объемах "
+"аудитории."
+msgstr ""
+"The cost per contact is often lower than on TV, with comparable audience volumes."
+
+#: .\templates\home\Outdoor_advertising.html:56
+msgid "6. Долговечность воздействия"
+msgstr "6. Long-lasting impact"
+
+#: .\templates\home\Outdoor_advertising.html:57
+msgid ""
+"Кампании могут длиться месяцами, обеспечивая стабильное визуальное "
+"присутствие."
+msgstr ""
+"Campaigns can last for months, providing a stable visual presence."
+
+#: .\templates\home\Outdoor_advertising.html:66
+msgid "1. Минимум деталей"
+msgstr "1. Minimum of details"
+
+#: .\templates\home\Outdoor_advertising.html:67
+msgid ""
+"Ограниченное пространство не позволяет передать сложные идеи или подробные "
+"характеристики."
+msgstr ""
+"Limited space does not allow for conveying complex ideas or detailed "
+"characteristics."
+
+#: .\templates\home\Outdoor_advertising.html:70
+msgid "2. Внешние факторы"
+msgstr "2. External factors"
+
+#: .\templates\home\Outdoor_advertising.html:71
+msgid ""
+"Погода, освещение и время суток могут существенно влиять на качество "
+"восприятия рекламы."
+msgstr ""
+"Weather, lighting, and time of day can significantly affect the quality "
+"of advertising perception."
+
+#: .\templates\home\Outdoor_advertising.html:74
+msgid "3. Слабая сегментация"
+msgstr "3. Weak segmentation"
+
+#: .\templates\home\Outdoor_advertising.html:75
+msgid ""
+"Реклама воздействует на всех подряд, что снижает эффективность для "
+"узконишевых продуктов."
+msgstr ""
+"Advertising affects everyone indiscriminately, which reduces effectiveness "
+"for niche products."
+
+#: .\templates\home\Outdoor_advertising.html:78
+msgid "4. Конкуренция внимания"
+msgstr "4. Competition for attention"
+
+#: .\templates\home\Outdoor_advertising.html:79
+msgid ""
+"В перенасыщенной городской среде трудно заставить потребителя "
+"сфокусироваться именно на вашем щите."
+msgstr ""
+"In a saturated urban environment, it is difficult to get a consumer "
+"to focus specifically on your billboard."
+
+#: .\templates\home\Outdoor_advertising.html:82
+msgid "5. Износ и обновления"
+msgstr "5. Wear and updates"
+
+#: .\templates\home\Outdoor_advertising.html:83
+msgid ""
+"Необходима регулярная смена материалов, чтобы они не выгорали и не надоедали "
+"аудитории."
+msgstr ""
+"Regular changes of materials are necessary so they don't fade or bore "
+"the audience."
+
+#: .\templates\home\Outdoor_advertising.html:86
+msgid "6. Законодательство"
+msgstr "6. Legislation"
+
+#: .\templates\home\Outdoor_advertising.html:87
+msgid ""
+"Строгие городские правила и требования к размещению часто усложняют процесс "
+"согласования."
+msgstr ""
+"Strict city rules and placement requirements often complicate the approval process."
+
+#: .\templates\home\Outdoor_advertising.html:95
+#, python-format
+msgid ""
+"Наружная реклама обладает огромным потенциалом охвата. Чтобы она работала на "
+"100%%, важно адаптироваться к среде, использовать инновационные подходы и "
+"делать ставку на мгновенную узнаваемость дизайна."
+msgstr ""
+"Outdoor advertising has huge reach potential. For it to work at 100%%, "
+"it's important to adapt to the environment, use innovative approaches, and "
+"focus on instant design recognition."
+
+#: .\templates\home\PR.html:20
+msgid ""
+"Публикации в прессе, сюжеты на ТВ и радио. Классический способ формирования "
+"общественного мнения и укрепления престижа бренда."
+msgstr ""
+"Press publications, TV and radio stories. A classic way of shaping "
+"public opinion and strengthening brand prestige."
+
+#: .\templates\home\PR.html:26
+msgid ""
+"PR остается эффективным инструментом даже в цифровую эпоху. Упоминание в "
+"авторитетных медиа воспринимается аудиторией как объективное признание, что "
+"вызывает гораздо больше доверия, чем прямая реклама."
+msgstr ""
+"PR remains an effective tool even in the digital age. Mentions in "
+"authoritative media are perceived by the audience as objective recognition, "
+"which inspires much more trust than direct advertising."
+
+#: .\templates\home\PR.html:36
+msgid "1. Доверие и престиж"
+msgstr "1. Trust and prestige"
+
+#: .\templates\home\PR.html:37
+msgid ""
+"Публикация в уважаемом издании укрепляет репутацию и выглядит надежнее "
+"обычной рекламы."
+msgstr ""
+"Publication in a respected outlet strengthens reputation and looks more "
+"reliable than regular advertising."
+
+#: .\templates\home\PR.html:40
+msgid "2. Широкий охват"
+msgstr "2. Wide reach"
+
+#: .\templates\home\PR.html:41
+msgid ""
+"Традиционные медиа позволяют достучаться до массовой аудитории на локальных "
+"и федеральных рынках."
+msgstr ""
+"Traditional media allow you to reach a mass audience in local "
+"and federal markets."
+
+#: .\templates\home\PR.html:44
+msgid "3. Глубина подачи"
+msgstr "3. Depth of delivery"
+
+#: .\templates\home\PR.html:45
+msgid ""
+"Формат статьи или интервью позволяет рассказать историю бренда и вызвать "
+"эмоциональный отклик."
+msgstr ""
+"An article or interview format allows you to tell the brand's story and "
+"evoke an emotional response."
+
+#: .\templates\home\PR.html:48
+msgid "4. Социальные сигналы"
+msgstr "4. Social signals"
+
+#: .\templates\home\PR.html:49
+msgid ""
+"Упоминания в известных источниках подтверждают надежность и успешность вашей "
+"компании."
+msgstr ""
+"Mentions in well-known sources confirm the reliability and success of your "
+"company."
+
+#: .\templates\home\PR.html:52
+msgid "5. Разнообразие форматов"
+msgstr "5. Variety of formats"
+
+#: .\templates\home\PR.html:53
+msgid ""
+"От коротких обзоров до глубокой аналитики — вы можете выбрать идеальный "
+"способ подачи материала."
+msgstr ""
+"From short reviews to deep analytics — you can choose the ideal way "
+"to present the material."
+
+#: .\templates\home\PR.html:56
+msgid "6. Конвергенция с Digital"
+msgstr "6. Convergence with Digital"
+
+#: .\templates\home\PR.html:57
+msgid ""
+"Современные СМИ публикуют материалы онлайн, что упрощает их вирусное "
+"распространение в соцсетях."
+msgstr ""
+"Modern media publish materials online, which simplifies their viral "
+"distribution in social networks."
+
+#: .\templates\home\PR.html:66
+msgid "1. Зависимость от редакторов"
+msgstr "1. Dependence on editors"
+
+#: .\templates\home\PR.html:67
+msgid ""
+"Журналисты могут исказить информацию или интерпретировать факты не в пользу "
+"вашего бренда."
+msgstr ""
+"Journalists may distort information or interpret facts not in favor of "
+"your brand."
+
+#: .\templates\home\PR.html:70
+msgid "2. Нужен инфоповод"
+msgstr "2. Need for news hook"
+
+#: .\templates\home\PR.html:71
+msgid ""
+"СМИ не опубликуют материал, если он не содержит по-настоящему интересного "
+"или уникального события."
+msgstr ""
+"Media will not publish material unless it contains a truly interesting "
+"or unique event."
+
+#: .\templates\home\PR.html:74
+msgid "3. Долгая реализация"
+msgstr "3. Long implementation"
+
+#: .\templates\home\PR.html:75
+msgid ""
+"Подготовка пресс-релиза и переговоры занимают много времени, что мешает "
+"оперативной реакции."
+msgstr ""
+"Press release preparation and negotiations take a lot of time, which prevents "
+"a quick response."
+
+#: .\templates\home\PR.html:78
+msgid "4. Потеря молодой аудитории"
+msgstr "4. Loss of young audience"
+
+#: .\templates\home\PR.html:79
+msgid ""
+"Традиционные медиа теряют популярность у молодежи, предпочитающей соцсети и "
+"приложения."
+msgstr ""
+"Traditional media are losing popularity with youth, who prefer social networks "
+"and apps."
+
+#: .\templates\home\PR.html:82
+msgid "5. Репутационные риски"
+msgstr "5. Reputational risks"
+
+#: .\templates\home\PR.html:83
+msgid ""
+"Одна неудачная публикация или ошибка в комментарии может надолго испортить "
+"имидж компании."
+msgstr ""
+"One unsuccessful publication or an error in a comment can ruin a "
+"company's image for a long time."
+
+#: .\templates\home\PR.html:86
+msgid "6. Жесткая конкуренция"
+msgstr "6. Tough competition"
+
+#: .\templates\home\PR.html:87
+msgid ""
+"Количество компаний, желающих попасть в эфир, растет, требуя всё более "
+"нестандартных подходов."
+msgstr ""
+"The number of companies wanting to get on air is growing, requiring ever "
+"more non-standard approaches."
+
+#: .\templates\home\PR.html:95
+msgid ""
+"PR и работа со СМИ требуют профессиональной команды и грамотной стратегии. "
+"При правильном подходе этот инструмент создает прочный фундамент доверия, "
+"который невозможно купить за деньги в обычной рекламе."
+msgstr ""
+"PR and media relations require a professional team and a sound strategy. "
+"With the right approach, this tool creates a solid foundation of trust "
+"that cannot be bought with money in regular advertising."
+
+#: .\templates\home\SEO.html:20
+msgid ""
+"Повышение видимости сайта в поисковых системах (Яндекс, Google) для "
+"получения бесплатного трафика. Ключ к долгосрочному успезу в цифровом "
+"пространстве."
+msgstr ""
+"Increasing website visibility in search engines (Yandex, Google) to "
+"receive free traffic. The key to long-term success in the digital space."
+
+#: .\templates\home\SEO.html:26
+msgid ""
+"Эффективность SEO определяется уровнем конкуренции, техническим состоянием "
+"сайта и качеством контента. Это инвестиция в 'фундамент' вашего бизнеса, "
+"которая избавляет от полной зависимости от платной рекламы."
+msgstr ""
+"SEO effectiveness is determined by competition level, website technical status, "
+"and content quality. This is an investment in the 'foundation' of your business, "
+"which eliminates full dependence on paid advertising."
+
+#: .\templates\home\SEO.html:36
+msgid "1. Бесплатный трафик"
+msgstr "1. Free traffic"
+
+#: .\templates\home\SEO.html:37
+msgid ""
+"Вы получаете переходы из поиска бесплатно, что выгодно отличает SEO от "
+"платной рекламы."
+msgstr ""
+"You receive search traffic for free, which distinguishes SEO from "
+"paid advertising."
+
+#: .\templates\home\SEO.html:40
+msgid "2. Долгосрочный результат"
+msgstr "2. Long-term results"
+
+#: .\templates\home\SEO.html:41
+msgid ""
+"Правильная оптимизация приносит пользу годами, удерживая сайт в топе даже "
+"после паузы в активных работах."
+msgstr ""
+"Proper optimization provides value for years, keeping the site at the top "
+"even after a pause in active work."
+
+#: .\templates\home\SEO.html:44
+msgid "3. Устойчивый поток"
+msgstr "3. Sustainable flow"
+
+#: .\templates\home\SEO.html:45
+msgid ""
+"Оптимизированный сайт генерирует стабильный приток целевых клиентов, повышая "
+"узнаваемость бренда."
+msgstr ""
+"An optimized site generates a stable inflow of target clients, increasing "
+"brand awareness."
+
+#: .\templates\home\SEO.html:48
+msgid "4. Удобство для пользователя"
+msgstr "4. User convenience"
+
+#: .\templates\home\SEO.html:49
+msgid ""
+"SEO улучшает структуру, навигацию и скорость загрузки, делая сайт приятным "
+"для посетителей."
+msgstr ""
+"SEO improves structure, navigation, and loading speed, making the site pleasant "
+"for visitors."
+
+#: .\templates\home\SEO.html:52
+msgid "5. Конкурентоспособность"
+msgstr "5. Competitiveness"
+
+#: .\templates\home\SEO.html:53
+msgid ""
+"Высокие позиции выделяют вас среди конкурентов, создавая имидж лидера рынка."
+msgstr ""
+"High positions distinguish you from competitors, creating a market leader image."
+
+#: .\templates\home\SEO.html:56
+msgid "6. Комплексное улучшение"
+msgstr "6. Comprehensive improvement"
+
+#: .\templates\home\SEO.html:57
+msgid ""
+"Работа над поисковым продвижением помогает выявить и устранить технические "
+"слабые места всего ресурса."
+msgstr ""
+"Work on search promotion helps identify and eliminate technical "
+"weaknesses of the entire resource."
+
+#: .\templates\home\SEO.html:66
+msgid "1. Медленный эффект"
+msgstr "1. Slow effect"
+
+#: .\templates\home\SEO.html:67
+msgid ""
+"Достижение топа может занять месяцы или годы, особенно в нишах с высокой "
+"конкуренцией."
+msgstr ""
+"Reaching the top can take months or years, especially in high-competition niches."
+
+#: .\templates\home\SEO.html:70
+msgid "2. Регулярные вложения"
+msgstr "2. Regular investments"
+
+#: .\templates\home\SEO.html:71
+msgid ""
+"Поддерживать позиции сложно: нужно постоянно вкладываться в контент, ссылки "
+"и техподдержку."
+msgstr ""
+"Maintaining positions is difficult: constant investment in content, links, "
+"and tech support is required."
+
+#: .\templates\home\SEO.html:75
+msgid ""
+"Алгоритмы Яндекса и Google меняются, что может внезапно изменить положение "
+"сайта в выдаче."
+msgstr ""
+"Yandex and Google algorithms change, which can suddenly change the "
+"site's position in search results."
+
+#: .\templates\home\SEO.html:78
+msgid "4. Вероятность санкций"
+msgstr "4. Probability of sanctions"
+
+#: .\templates\home\SEO.html:79
+msgid ""
+"Ошибки или агрессивные методы (спам) могут привести к блокировке сайта в "
+"поисковых системах."
+msgstr ""
+"Errors or aggressive methods (spam) can lead to website blocking in "
+"search engines."
+
+#: .\templates\home\SEO.html:82
+msgid "5. Постоянное обновление"
+msgstr "5. Constant updates"
+
+#: .\templates\home\SEO.html:83
+msgid ""
+"Сайт нуждается в регулярном пополнении свежими материалами, иначе он быстро "
+"теряет релевантность."
+msgstr ""
+"The site needs regular updates with fresh materials; otherwise, it quickly "
+"loses relevance."
+
+#: .\templates\home\SEO.html:86
+msgid "6. Трудоемкость"
+msgstr "6. Laboriousness"
+
+#: .\templates\home\SEO.html:87
+msgid ""
+"SEO требует глубоких знаний и привлечения профильных экспертов, что "
+"увеличивает затраты на старте."
+msgstr ""
+"SEO requires deep knowledge and the involvement of profile experts, which "
+"increases startup costs."
+
+#: .\templates\home\SEO.html:95
+msgid ""
+"SEO — это мощный марафонский инструмент. Успех здесь требует терпения, "
+"системности и адекватного бюджета, но в итоге он обеспечивает наилучшую "
+"окупаемость и стабильность бизнеса."
+msgstr ""
+"SEO is a powerful marathon tool. Success here requires patience, "
+"systematicity, and an adequate budget, but in the end, it provides the best "
+"ROI and business stability."
+
+#: .\templates\home\SERM.html:5
+msgid "SERM — Управление репутацией"
+msgstr "SERM — Reputation Management"
+
+#: .\templates\home\SERM.html:13
+msgid "SERM"
+msgstr "SERM"
+
+#: .\templates\home\SERM.html:17
+msgid "SERM (Управление репутацией)"
+msgstr "SERM (Reputation Management)"
+
+#: .\templates\home\SERM.html:20
+msgid ""
+"Работа с отзывами и формирование положительного имиджа. Search Engine "
+"Reputation Management — важнейший элемент защиты бренда в поисковых системах."
+msgstr ""
+"Working with reviews and forming a positive image. Search Engine "
+"Reputation Management is a critical element of brand protection in search engines."
+
+#: .\templates\home\SERM.html:26
+msgid ""
+"SERM направлен на вытеснение негатива из топа поисковой выдачи и создание "
+"благоприятного информационного фона. В эпоху цифровизации репутация в сети "
+"напрямую влияет на конверсию и доверие клиентов."
+msgstr ""
+"SERM is aimed at displacing negative content from the top search results and "
+"creating a favorable information background. In the digital age, online "
+"reputation directly affects conversion and customer trust."
+
+#: .\templates\home\SERM.html:36
+msgid "1. Нейтрализация негатива"
+msgstr "1. Negativity neutralization"
+
+#: .\templates\home\SERM.html:37
+msgid ""
+"Позволяет выявлять и устранять отрицательные высказывания, исправляя ошибки "
+"в восприятии бренда."
+msgstr ""
+"Allows identifying and eliminating negative statements, correcting errors "
+"in brand perception."
+
+#: .\templates\home\SERM.html:40
+msgid "2. Рост доверия"
+msgstr "2. Trust growth"
+
+#: .\templates\home\SERM.html:41
+msgid ""
+"Положительные отзывы реальных клиентов формируют лояльность и подтверждают "
+"качество сервиса."
+msgstr ""
+"Positive reviews from real customers build loyalty and confirm "
+"service quality."
+
+#: .\templates\home\SERM.html:44
+msgid "3. Конверсия в покупку"
+msgstr "3. Conversion to purchase"
+
+#: .\templates\home\SERM.html:45
+msgid ""
+"Высокий рейтинг компании в сети помогает сомневающимся клиентам быстрее "
+"принять решение о покупке."
+msgstr ""
+"A high online company rating helps hesitant customers make a "
+"purchase decision faster."
+
+#: .\templates\home\SERM.html:48
+msgid "4. Быстрое реагирование"
+msgstr "4. Rapid response"
+
+#: .\templates\home\SERM.html:49
+msgid ""
+"Мониторинг упоминаний позволяет моментально купировать кризисные ситуации и "
+"фейковые вбросы."
+msgstr ""
+"Monitoring mentions allows for instant mitigation of crisis situations and "
+"fake news."
+
+#: .\templates\home\SERM.html:52
+msgid "5. Оздоровление выдачи"
+msgstr "5. Search results cleanup"
+
+#: .\templates\home\SERM.html:53
+msgid ""
+"Вытеснение негативных ссылок из ТОП-10 поисковиков заменяет их "
+"контролируемым контентом."
+msgstr ""
+"Displacing negative links from the TOP-10 search results replaces them "
+"with controlled content."
+
+#: .\templates\home\SERM.html:56
+msgid "6. Социальное признание"
+msgstr "6. Social recognition"
+
+#: .\templates\home\SERM.html:57
+msgid ""
+"Трансляция ценностей через блоги и спецплощадки укрепляет имидж социально "
+"ответственного бизнеса."
+msgstr ""
+"Broadcasting values through blogs and specialized platforms strengthens the "
+"socially responsible business image."
+
+#: .\templates\home\SERM.html:66
+msgid "1. Высокая трудоемкость"
+msgstr "1. High complexity"
+
+#: .\templates\home\SERM.html:67
+msgid ""
+"Удаление негатива и создание контента требуют значительных временных и "
+"финансовых ресурсов."
+msgstr ""
+"Removing negativity and creating content require significant time and "
+"financial resources."
+
+#: .\templates\home\SERM.html:70
+msgid "2. Атаки конкурентов"
+msgstr "2. Competitor attacks"
+
+#: .\templates\home\SERM.html:71
+msgid ""
+"Заказные фейковые отзывы от конкурентов могут создать ситуацию, которую "
+"трудно контролировать."
+msgstr ""
+"Custom fake reviews from competitors can create a situation "
+"that is difficult to control."
+
+#: .\templates\home\SERM.html:74
+msgid "3. Инертность результата"
+msgstr "3. Result latency"
+
+#: .\templates\home\SERM.html:75
+msgid ""
+"Эффект от работы по репутации проявляется медленно — часто спустя месяцы "
+"после начала кампании."
+msgstr ""
+"The effect of reputation work appears slowly — often months "
+"after the campaign starts."
+
+#: .\templates\home\SERM.html:78
+msgid "4. Невозможность полного удаления"
+msgstr "4. Impossibility of total removal"
+
+#: .\templates\home\SERM.html:79
+msgid ""
+"Практически нереально стереть весь негатив из сети; часть отзывов останется "
+"в архивах."
+msgstr ""
+"It is practically impossible to erase all negativity from the network; some "
+"reviews will remain in archives."
+
+#: .\templates\home\SERM.html:82
+msgid "5. Сложность исполнения"
+msgstr "5. Execution difficulty"
+
+#: .\templates\home\SERM.html:83
+msgid ""
+"Для эффективного SERM нужны специфические знания, поиск достойного "
+"специалиста — сложная задача."
+msgstr ""
+"Effective SERM requires specific knowledge; finding a worthy "
+"specialist is a difficult task."
+
+#: .\templates\home\SERM.html:86
+msgid "6. Политика площадок"
+msgstr "6. Platform policy"
+
+#: .\templates\home\SERM.html:87
+msgid ""
+"Отзовики могут препятствовать удалению даже необоснованного негатива, "
+"защищая свою независимость."
+msgstr ""
+"Review sites may block removal of even unsubstantiated negativity, "
+"defending their independence."
+
+#: .\templates\home\SERM.html:95
+msgid ""
+"SERM — это игра в долгую. Правильное управление репутацией способно "
+"существенно улучшить имидж и повысить конкурентоспособность, но оно требует "
+"комплексного подхода и профессионального сопровождения."
+msgstr ""
+"SERM is a long game. Proper reputation management can "
+"significantly improve image and competitiveness, but it requires a "
+"comprehensive approach and professional support."
+
+#: .\templates\home\SMM.html:5
+msgid "SMM — Продвижение в соцсетях"
+msgstr "SMM — Social Media Marketing"
+
+#: .\templates\home\SMM.html:13
+msgid "SMM"
+msgstr "SMM"
+
+#: .\templates\home\SMM.html:17
+msgid "SMM (Социальные сети)"
+msgstr "SMM (Social Media)"
+
+#: .\templates\home\SMM.html:20
+msgid ""
+"Продвижение через контент, сообщества, таргет и работу с блогерами. "
+"Инструмент, позволяющий бренду быть 'на одной волне' со своим клиентом."
+msgstr ""
+"Promotion through content, communities, targeting, and influencer marketing. "
+"A tool that allows a brand to be 'on the same wavelength' as its customer."
+
+#: .\templates\home\SMM.html:26
+msgid ""
+"Социальные сети объединяют миллионы пользователей. Успех здесь зависит от "
+"умения создавать вовлекающий контент, точно настраивать таргетированную "
+"рекламу и выстраивать искренние отношения с аудиторией."
+msgstr ""
+"Social networks unite millions of users. Success here depends on "
+"the ability to create engaging content, accurately configure targeted "
+"advertising, and build sincere relationships with the audience."
+
+#: .\templates\home\SMM.html:36
+msgid "1. Прямой контакт"
+msgstr "1. Direct contact"
+
+#: .\templates\home\SMM.html:37
+msgid ""
+"Диалог с пользователями в реальном времени формирует лояльность и искреннее "
+"доверие к бренду."
+msgstr ""
+"Real-time dialogue with users builds loyalty and sincere "
+"trust in the brand."
+
+#: .\templates\home\SMM.html:40
+msgid "2. Огромная аудитория"
+msgstr "2. Huge audience"
+
+#: .\templates\home\SMM.html:41
+msgid ""
+"Миллионы активных пользователей позволяют быстро масштабировать охват и "
+"находить новые сегменты клиентов."
+msgstr ""
+"Millions of active users allow for rapid reach scaling and "
+"finding new customer segments."
+
+#: .\templates\home\SMM.html:44
+msgid "3. Высокая вовлеченность"
+msgstr "3. High engagement"
+
+#: .\templates\home\SMM.html:45
+msgid ""
+"Опросы, игры и прямые эфиры вовлекают подписчиков гораздо сильнее, чем "
+"традиционная реклама."
+msgstr ""
+"Surveys, games, and live broadcasts engage subscribers much more strongly "
+"than traditional advertising."
+
+#: .\templates\home\SMM.html:48
+msgid "4. Точный таргетинг"
+msgstr "4. Precise targeting"
+
+#: .\templates\home\SMM.html:49
+msgid ""
+"Показ рекламы по интересам и поведению экономит бюджет, обращаясь только к "
+"заинтересованным лицам."
+msgstr ""
+"Showing ads based on interests and behavior saves budget by addressing "
+"only interested persons."
+
+#: .\templates\home\SMM.html:52
+msgid "5. Доступ к молодежи"
+msgstr "5. Access to youth"
+
+#: .\templates\home\SMM.html:53
+msgid ""
+"Соцсети — это основной канал коммуникации с молодой и платежеспособной "
+"аудиторией будущего."
+msgstr ""
+"Social networks are the main communication channel with the young and solvent "
+"audience of the future."
+
+#: .\templates\home\SMM.html:56
+msgid "6. Влияние через блогеров"
+msgstr "6. Influencer impact"
+
+#: .\templates\home\SMM.html:57
+msgid ""
+"Рекомендация от инфлюенсера воспринимается как совет друга, что кратно "
+"повышает доверие к продукту."
+msgstr ""
+"An influencer recommendation is perceived as a friend's advice, which "
+"multiplies trust in the product."
+
+#: .\templates\home\SMM.html:66
+msgid "1. Огромная конкуренция"
+msgstr "1. Huge competition"
+
+#: .\templates\home\SMM.html:67
+msgid ""
+"В перенасыщенной ленте постов трудно выделиться без оригинальных идей и "
+"больших вложений."
+msgstr ""
+"In an oversaturated feed, it's hard to stand out without original ideas and "
+"large investments."
+
+#: .\templates\home\SMM.html:70
+msgid "2. Ресурсные затраты"
+msgstr "2. Resource costs"
+
+#: .\templates\home\SMM.html:71
+msgid ""
+"Модерация, создание контента и ответы на комментарии требуют ежедневного "
+"участия целой команды."
+msgstr ""
+"Moderation, content creation, and responding to comments require daily "
+"involvement of a whole team."
+
+#: .\templates\home\SMM.html:74
+msgid "3. Стоимость рекламы"
+msgstr "3. Advertising cost"
+
+#: .\templates\home\SMM.html:75
+msgid ""
+"Аукционная модель в таргете постоянно дорожает, что требует крайне "
+"внимательной аналитики."
+msgstr ""
+"The auction model in targeting is constantly getting more expensive, requiring "
+"extremely careful analytics."
+
+#: .\templates\home\SMM.html:78
+msgid "4. Публичный негатив"
+msgstr "4. Public negativity"
+
+#: .\templates\home\SMM.html:79
+msgid ""
+"Любой недовольный клиент может мгновенно распространить жалобу, требуя "
+"быстрой реакции PR-отдела."
+msgstr ""
+"Any dissatisfied customer can instantly spread a complaint, requiring a "
+"quick reaction from the PR department."
+
+#: .\templates\home\SMM.html:82
+msgid "5. Короткий цикл жизни"
+msgstr "5. Short lifecycle"
+
+#: .\templates\home\SMM.html:83
+msgid ""
+"Посты быстро устаревают и вытесняются новыми, что обязывает бренд выпускать "
+"контент непрерывно."
+msgstr ""
+"Posts become outdated quickly and are replaced by new ones, obliging the "
+"brand to produce content continuously."
+
+#: .\templates\home\SMM.html:86
+msgid "6. Скепсис к нативности"
+msgstr "6. Skepticism of nativeness"
+
+#: .\templates\home\SMM.html:87
+msgid ""
+"Пользователи становятся опытнее и часто настороженно относятся к рекламе у "
+"блогеров."
+msgstr ""
+"Users are becoming more experienced and often wary of influencer "
+"advertising."
+
+#: .\templates\home\SMM.html:95
+msgid ""
+"SMM — это мощный инструмент персонализации. Эффективность здесь зависит от "
+"гибкости стратегии и готовности бренда инвестировать в качественный контент "
+"и искреннюю коммуникацию с людьми."
+msgstr ""
+"SMM is a powerful personalization tool. Effectiveness here depends on "
+"strategy flexibility and brand willingness to invest in quality content "
+"and sincere communication with people."
+
+#: .\templates\home\Sales_Promotion.html:20
+msgid ""
+"Акции, скидки, мерч (товары с символикой). Методы мгновенного воздействия на "
+"покупателя для увеличения объема продаж в краткосрочной перспективе."
+msgstr ""
+"Promotions, discounts, merch (branded goods). Methods of instant impact on "
+"the buyer to increase sales volume in the short term."
+
+#: .\templates\home\Sales_Promotion.html:26
+msgid ""
+"Стимулирование сбыта — это мощный рычаг управления спросом. Однако его "
+"применение требует баланса: важно поднять продажи, не обесценив при этом "
+"имидж бренда и не потеряв маржинальность."
+msgstr ""
+"Sales promotion is a powerful demand management lever. However, its "
+"application requires balance: it's important to raise sales without devaluing "
+"brand image or losing margin."
+
+#: .\templates\home\Sales_Promotion.html:36
+msgid "1. Быстрый рост продаж"
+msgstr "1. Rapid sales growth"
+
+#: .\templates\home\Sales_Promotion.html:37
+msgid ""
+"Скидки позволяют мгновенно увеличить оборот за счет покупателей, ждавших "
+"выгодных условий."
+msgstr ""
+"Discounts allow for an instant increase in turnover from buyers waiting for "
+"favorable conditions."
+
+#: .\templates\home\Sales_Promotion.html:40
+msgid "2. Привлечение новых клиентов"
+msgstr "2. Attracting new customers"
+
+#: .\templates\home\Sales_Promotion.html:41
+msgid ""
+"Бонусы и промокоды — отличный повод для новой аудитории попробовать ваш "
+"продукт впервые."
+msgstr ""
+"Bonuses and promo codes are a great reason for a new audience to try your "
+"product for the first time."
+
+#: .\templates\home\Sales_Promotion.html:44
+msgid "3. Разгрузка складов"
+msgstr "3. Inventory clearance"
+
+#: .\templates\home\Sales_Promotion.html:45
+msgid ""
+"Распродажи помогают быстро избавиться от остатков, освобождая место и снижая "
+"расходы на хранение."
+msgstr ""
+"Sales help quickly get rid of stock, freeing up space and reducing "
+"storage costs."
+
+#: .\templates\home\Sales_Promotion.html:48
+msgid "4. Укрепление лояльности"
+msgstr "4. Loyalty strengthening"
+
+#: .\templates\home\Sales_Promotion.html:49
+msgid ""
+"Бонусные системы для постоянных клиентов усиливают их приверженность вашему "
+"бренду."
+msgstr ""
+"Bonus systems for regular customers strengthen their commitment to your "
+"brand."
+
+#: .\templates\home\Sales_Promotion.html:52
+msgid "5. Гибкость инструментов"
+msgstr "5. Tool flexibility"
+
+#: .\templates\home\Sales_Promotion.html:53
+msgid ""
+"Кэшбэк, купоны, розыгрыши — вы можете подобрать механику под любую задачу и "
+"целевую группу."
+msgstr ""
+"Cashback, coupons, sweepstakes — you can select mechanics for any task and "
+"target group."
+
+#: .\templates\home\Sales_Promotion.html:56
+msgid "6. Мерч как реклама"
+msgstr "6. Merch as advertising"
+
+#: .\templates\home\Sales_Promotion.html:57
+msgid ""
+"Аксессуары с логотипом не только приносят доход, но и работают как "
+"бесплатная реклама бренда."
+msgstr ""
+"Accessories with a logo not only generate income but also work as "
+"free brand advertising."
+
+#: .\templates\home\Sales_Promotion.html:66
+msgid "1. Обесценивание продукта"
+msgstr "1. Product devaluation"
+
+#: .\templates\home\Sales_Promotion.html:67
+msgid ""
+"Частые скидки могут создать имидж дешевого товара, снижая доверие к качеству "
+"бренда."
+msgstr ""
+"Frequent discounts can create a cheap product image, reducing trust in brand "
+"quality."
+
+#: .\templates\home\Sales_Promotion.html:70
+msgid "2. Потеря прибыли"
+msgstr "2. Profit loss"
+
+#: .\templates\home\Sales_Promotion.html:71
+msgid ""
+"Агрессивный демпинг сильно бьет по маржинальности, не всегда окупаясь ростом "
+"оборота."
+msgstr ""
+"Aggressive dumping hits margins hard, not always paying off with turnover "
+"growth."
+
+#: .\templates\home\Sales_Promotion.html:74
+msgid "3. Отложенный спрос"
+msgstr "3. Deferred demand"
+
+#: .\templates\home\Sales_Promotion.html:75
+msgid ""
+"Люди привыкают ждать акций и перестают покупать товар по его стандартной "
+"цене."
+msgstr ""
+"People get used to waiting for promotions and stop buying the product at "
+"its standard price."
+
+#: .\templates\home\Sales_Promotion.html:78
+msgid "4. Сложность контроля"
+msgstr "4. Control difficulty"
+
+#: .\templates\home\Sales_Promotion.html:79
+msgid ""
+"Плохая логистика или отсутствие товара в момент акции могут вызвать негатив "
+"и разочарование."
+msgstr ""
+"Poor logistics or lack of goods during a promotion can cause negativity "
+"and disappointment."
+
+#: .\templates\home\Sales_Promotion.html:82
+msgid "5. Промо-зависимость"
+msgstr "5. Promo-dependency"
+
+#: .\templates\home\Sales_Promotion.html:83
+msgid ""
+"Остановка акций может привести к резкому и болезненному падению уровня "
+"продаж."
+msgstr ""
+"Stopping promotions can lead to a sharp and painful drop in "
+"sales levels."
+
+#: .\templates\home\Sales_Promotion.html:86
+msgid "6. Затраты на реализацию"
+msgstr "6. Implementation costs"
+
+#: .\templates\home\Sales_Promotion.html:87
+msgid ""
+"Производство мерча и администрирование акций требуют серьезных вложений и "
+"ресурсов."
+msgstr ""
+"Merch production and promotion administration require serious investments and "
+"resources."
+
+#: .\templates\home\Sales_Promotion.html:95
+msgid ""
+"Стимулирование сбыта способно дать быстрый результат, но требует ювелирной "
+"точности. Грамотно подобранные механизмы мотивации укрепят компанию, тогда "
+"как хаотичные скидки могут разрушить ценность бренда."
+msgstr ""
+"Sales promotion can provide quick results but requires precision. "
+"Well-chosen motivation mechanisms will strengthen the company, whereas "
+"chaotic discounts can destroy brand value."
+
+#: .\templates\home\index.html:5
+msgid "Главная страница"
+msgstr "Main Page"
+
+#: .\templates\home\index.html:9
+msgid "Ключевые методы продвижения"
+msgstr "Key Promotion Methods"
+
+#: .\templates\home\index.html:10
+msgid "Нажмите на любую карточку, чтобы изучить инструмент"
+msgstr "Click on any card to explore the tool"
+
+#: .\templates\includes\footer.html:6
+msgid "Все права защищены."
+msgstr "All rights reserved."
