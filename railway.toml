@@ -1,4 +1,5 @@
 [build]
+pkgs = ["python311"]
 builder = "nixpacks"
 buildCommand = "pip install -r requirements/prod.txt && cd web && python manage.py collectstatic --noinput"
 
