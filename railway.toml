@@ -1,7 +1,7 @@
 [build]
 builder = "nixpacks"
 pkgs = ["python311", "gcc", "postgresql"]
-buildCommand = "pip install -r requirements/prod.txt && cd web && python manage.py collectstatic --noinput"
+buildCommand = "pip install -r requirements.txt && cd web && python manage.py collectstatic --noinput"
 
 [deploy]
 startCommand = "cd web && python manage.py runserver 0.0.0.0:8000"
